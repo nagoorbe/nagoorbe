@@ -1,0 +1,11 @@
+A={1,2,3,4}
+B={3,4,5,6}
+print(A.union(B))
+print(A.symmetric_difference(B))
+print(A.intersection(B))
+print(A.intersection_updatn(B))
+print(A.difference(B))
+print(A.difference_update(B))+
+print(A.issuperset(B))
+print(A.isdisjoint(B))
+print(A.issubset(B))
