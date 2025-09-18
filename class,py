@@ -1,0 +1,10 @@
+#creating a class
+class School:
+    pass
+# creating object
+obj=School()
+print("object created")    
+print(obj)
+print(type(obj))
+print(id(obj))    
+
