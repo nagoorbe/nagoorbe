@@ -1,0 +1,8 @@
+def merge_dicts(d1, d2):
+    merged = d1.copy()
+    merged.update(d2)
+    return merged
+
+a = {"x": 1, "y": 2}
+b = {"y": 10, "z": 5}
+print(merge_dicts(a, b))  
